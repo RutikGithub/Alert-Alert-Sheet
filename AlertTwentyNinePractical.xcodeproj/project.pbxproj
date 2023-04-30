@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0459FCBA29FCD3910049A4F7 /* SecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459FCB929FCD3910049A4F7 /* SecondTableViewCell.swift */; };
 		04EA834629FBD69C002D0AA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA834529FBD69C002D0AA1 /* AppDelegate.swift */; };
 		04EA834829FBD69C002D0AA1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA834729FBD69C002D0AA1 /* SceneDelegate.swift */; };
 		04EA834A29FBD69C002D0AA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA834929FBD69C002D0AA1 /* ViewController.swift */; };
 		04EA834D29FBD69C002D0AA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EA834B29FBD69C002D0AA1 /* Main.storyboard */; };
 		04EA834F29FBD69F002D0AA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EA834E29FBD69F002D0AA1 /* Assets.xcassets */; };
 		04EA835229FBD69F002D0AA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EA835029FBD69F002D0AA1 /* LaunchScreen.storyboard */; };
+		04EA835A29FBDC52002D0AA1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA835929FBDC52002D0AA1 /* SecondViewController.swift */; };
+		04EA835C29FBDE59002D0AA1 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA835B29FBDE59002D0AA1 /* Student.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0459FCB929FCD3910049A4F7 /* SecondTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewCell.swift; sourceTree = "<group>"; };
 		04EA834229FBD69C002D0AA1 /* AlertTwentyNinePractical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlertTwentyNinePractical.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EA834529FBD69C002D0AA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04EA834729FBD69C002D0AA1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		04EA834E29FBD69F002D0AA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04EA835129FBD69F002D0AA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04EA835329FBD69F002D0AA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EA835929FBDC52002D0AA1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		04EA835B29FBDE59002D0AA1 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +65,10 @@
 				04EA834529FBD69C002D0AA1 /* AppDelegate.swift */,
 				04EA834729FBD69C002D0AA1 /* SceneDelegate.swift */,
 				04EA834929FBD69C002D0AA1 /* ViewController.swift */,
+				04EA835B29FBDE59002D0AA1 /* Student.swift */,
 				04EA834B29FBD69C002D0AA1 /* Main.storyboard */,
+				04EA835929FBDC52002D0AA1 /* SecondViewController.swift */,
+				0459FCB929FCD3910049A4F7 /* SecondTableViewCell.swift */,
 				04EA834E29FBD69F002D0AA1 /* Assets.xcassets */,
 				04EA835029FBD69F002D0AA1 /* LaunchScreen.storyboard */,
 				04EA835329FBD69F002D0AA1 /* Info.plist */,
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04EA835A29FBDC52002D0AA1 /* SecondViewController.swift in Sources */,
 				04EA834A29FBD69C002D0AA1 /* ViewController.swift in Sources */,
 				04EA834629FBD69C002D0AA1 /* AppDelegate.swift in Sources */,
+				04EA835C29FBDE59002D0AA1 /* Student.swift in Sources */,
 				04EA834829FBD69C002D0AA1 /* SceneDelegate.swift in Sources */,
+				0459FCBA29FCD3910049A4F7 /* SecondTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
